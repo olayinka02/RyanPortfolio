@@ -1,0 +1,413 @@
+
+html{
+  width:100%;
+  overflow-y: scroll;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,
+  Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color 
+  Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+body {
+  margin: 0;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,
+  Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color 
+  Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+  padding-left:auto;
+  padding-right:auto;
+  background-color: #000000 !important;
+}
+.BodySection{
+  background-color: #000000 !important;
+}
+.NavBarBody{
+  background: url(./component.js/images/NavBackground.svg);
+  width: 100% !important;
+  justify-content: space-between !important;
+  
+}
+.navChildrenWrap{
+  margin-left:0;
+
+}
+.navChildren{
+  color: aliceblue !important;
+  font-size: 0.9rem;
+  
+}
+.FirstContainer{
+  margin-top:6rem;
+  width: 100% !important;
+}
+.FirstSectionLeftHeading{
+  font-weight: 960;
+  font-size: 2.5rem;
+  line-height: 126%;
+  width:100%;
+  -webkit-animation: boxamine 4s infinite;
+  -moz-animation: boxamine 4s infinite;
+  animation: boxamine 4s  infinite;
+  
+}
+@keyframes boxamine {
+  from{
+    background: linear-gradient(270deg, #0057FF 0.04%, rgba(233, 0, 14, 0.66) 100.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  }
+  to{
+    background: linear-gradient(270deg, rgba(255, 4, 20, 0.66) 20.0%, #4a82f1 110.0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  }
+  
+}
+.FirstSectionLeftParagraph{
+  font-size: 0.7rem;
+  color: rgb(255, 255, 255);
+  width:100%;
+  font-size: smaller;
+  line-height: 24px;
+}
+.leftImage{
+  margin-top:1rem;
+}
+.SeeMoreBtn{
+  border-radius:100px !important;
+  padding-left:0.15rem !important;
+  padding-right: 0.15rem !important;
+  padding-top:0.15rem !important;
+  padding-bottom:0.15rem !important;
+  width: 10rem !important;
+  height:2.6rem;
+}
+.SeeMoreBtnInner{
+  border-radius: 50px !important;
+  margin:0.001rem !important;
+  background-color:white;
+  color: #000000;
+  font-size: medium;
+  font-weight: 600;
+  height: 2.0rem;
+  padding-top: 0.2rem;
+  padding-bottom: "auto";
+
+}
+#GamingKeyboard{
+  display: none !important;
+}
+.SecondContainer{
+  margin-top:2rem;
+  margin-bottom:2rem;
+  width: 100% !important;
+}
+.AboutUsTextx1{
+  padding-top: 6.5rem;
+  display: none;
+}
+.AboutUsTextx2{
+  padding-top: 6.5rem;
+  display: block;
+}
+.AboutUsImagex1{
+  display: none;
+}
+.AboutUsImagex2{
+  display: block;
+}
+
+
+.bodyme{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+  body {
+    margin: 0;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) { 
+  .FirstContainer{
+    margin-top: 08rem;
+    width: 100% !important;
+  }
+  .AboutUsTextx1{
+    padding-top: 6.5rem;
+    display: block;
+  }
+  .AboutUsTextx2{
+    padding-top: 6.5rem;
+    display: none;
+  }
+  .AboutUsImagex1{
+    display: block;
+  }
+  .AboutUsImagex2{
+    display: none;
+  }
+  .bodyme{
+    width: 100%;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .navChildrenWrap{
+    margin-left:0;
+  }
+  .FirstContainer{
+    margin-top: 13rem;
+  }
+
+  .navChildren{
+    color: aliceblue !important;
+    font-size: 0.9rem;
+    
+  }
+  .FirstContainer{
+    margin-top: 20rem;
+    width: 100% !important;
+  }
+  .FirstSectionLeftHeading{
+   
+   
+    font-weight: 860;
+    font-size: 3.5rem;
+    line-height: 126%;
+    width:100%;
+  
+    -webkit-animation: boxamine 4s infinite;
+    -moz-animation: boxamine 4s infinite;
+    animation: boxamine 4s  infinite;
+    
+    
+  }
+  @keyframes boxamine {
+    from{
+      background: linear-gradient(270deg, #0057FF 0.04%, rgba(233, 0, 14, 0.66) 100.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+    }
+    to{
+      background: linear-gradient(270deg, rgba(255, 4, 20, 0.66) 20.0%, #4a82f1 110.0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    
+  }
+  .FirstSectionLeftParagraph{
+    font-size: 72px;
+    color: aliceblue;
+  
+  
+    font-size: smaller;
+    width:26rem;
+    line-height: 24px;
+  }
+  .leftImage{
+    margin-top:-11rem;
+  }
+  .SeeMoreBtn{
+    border-radius:100px !important;
+    padding-left:0.15rem !important;
+    padding-right: 0.15rem !important;
+    padding-top:0.15rem !important;
+    padding-bottom:0.15rem !important;
+    width: 10rem !important;
+    height:2.6rem;
+  }
+  .SeeMoreBtnInner{
+    border-radius: 50px !important;
+    margin:0.001rem !important;
+    background-color:white;
+    color: #000000;
+    font-size: medium;
+    font-weight: 600;
+    height: 2.0rem;
+    padding-top: 0.2rem;
+    padding-bottom: "auto";
+  
+  }
+  
+  .SecondContainer{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width: 100% !important;
+  }
+  .AboutUsTextx1{
+    padding-top: 6.5rem;
+    display: block;
+  }
+  .AboutUsTextx2{
+    padding-top: 6.5rem;
+    display: none;
+  }
+  .AboutUsImagex1{
+    display: block;
+  }
+  .AboutUsImagex2{
+    display: none;
+  }
+  .bodyme{
+    width: 100%;
+  }
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  body{
+    background-color: #000000;
+  }
+
+  .navChildrenWrap{
+    margin-left:0;
+  
+  }
+  .navChildren{
+    color: aliceblue !important;
+    font-size: 0.9rem;
+    
+  }
+  .FirstContainer{
+    margin-top: 20rem;
+    width: 100% !important;
+  }
+  .FirstSectionLeftHeading{
+   
+   
+    font-weight: 860;
+    font-size: 3.5rem;
+    line-height: 126%;
+    width:100%;
+  
+    -webkit-animation: boxamine 4s infinite;
+    -moz-animation: boxamine 4s infinite;
+    animation: boxamine 4s  infinite;
+    
+    
+  }
+  @keyframes boxamine {
+    from{
+      background: linear-gradient(270deg, #0057FF 0.04%, rgba(233, 0, 14, 0.66) 100.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+    }
+    to{
+      background: linear-gradient(270deg, rgba(255, 4, 20, 0.66) 20.0%, #4a82f1 110.0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    
+  }
+  .FirstSectionLeftParagraph{
+    font-size: 72px;
+    color: aliceblue;
+  
+  
+    font-size: smaller;
+    width:26rem;
+    line-height: 24px;
+  }
+  .leftImage{
+    margin-top:-11rem;
+  }
+  .SeeMoreBtn{
+    border-radius:100px !important;
+    padding-left:0.15rem !important;
+    padding-right: 0.15rem !important;
+    padding-top:0.15rem !important;
+    padding-bottom:0.15rem !important;
+    width: 10rem !important;
+    height:2.6rem;
+  }
+  .SeeMoreBtnInner{
+    border-radius: 50px !important;
+    margin:0.001rem !important;
+    background-color:white;
+    color: #000000;
+    font-size: medium;
+    font-weight: 600;
+    height: 2.0rem;
+    padding-top: 0.2rem;
+    padding-bottom: "auto";
+  
+  }
+  
+  .SecondContainer{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width: 100% !important;
+  }
+  .AboutUsText{
+    padding-top: 6.5rem;
+  }
+  .bodyme{
+    width: 100%;
+  }
+  
+  
+
+}
