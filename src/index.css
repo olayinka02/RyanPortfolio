@@ -27,6 +27,7 @@ body {
 }
 .navChildrenWrap{
   margin-left:0;
+  float: right !important;
 
 }
 .navChildren{
@@ -123,6 +124,12 @@ body {
   width: 100%;
 }
 
+.CarouselItemOne{
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
 
 
 

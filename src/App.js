@@ -4,6 +4,7 @@ import NavBodyx from './component.js/NavBodyx';
 import FirstSectionLeft from './component.js/FirstSectionLeft';
 import ImageLeft from './component.js/ImageLeft';
 import AboutUs from './component.js/AboutUs';
+import OurPartner from './component.js/OurPartner';
 
 
 class App extends Component {
@@ -30,6 +31,9 @@ class App extends Component {
 
         {/* About Us Section */}
         <AboutUs /> 
+
+        {/* our partner */}
+        <OurPartner />
       </div>
     );
   }
