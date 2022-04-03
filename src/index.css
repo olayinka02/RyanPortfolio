@@ -72,9 +72,7 @@ body {
   font-size: smaller;
   line-height: 24px;
 }
-.leftImage{
-  margin-top:1rem;
-}
+
 .SeeMoreBtn{
   border-radius:100px !important;
   padding-left:0.15rem !important;
@@ -106,6 +104,7 @@ body {
 }
 .AboutUsTextx1{
   padding-top: 6.5rem;
+  padding-left: 0rem;
   display: none;
 }
 .AboutUsTextx2{
@@ -114,25 +113,46 @@ body {
 }
 .AboutUsImagex1{
   display: none;
+  
 }
 .AboutUsImagex2{
   display: block;
+  
 }
 
 
 .bodyme{
   width: 100%;
+  margin-top:2rem;
 }
 
-.CarouselItemOne{
-  -webkit-transition: 0.6s ease-in-out left;
-  -moz-transition: 0.6s ease-in-out left;
-  -o-transition: 0.6s ease-in-out left;
-  transition: 0.6s ease-in-out left;
+.abouturbanImage{
+  width:290px !important;
+  height:290px !important;
+ 
+
+  animation-name:rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.abouturbanImage:after{
+  transform:rotate(57deg);
 }
 
+.abouturbanImage:before{
+  transform:rotate(-57deg);
+}
+@keyframes rotate{
 
+  100%{
+    transform:rotate(360deg);
+  }
+}
 
+.leftImage{
+  margin-top:2rem;
+}
 
 
 
@@ -172,6 +192,7 @@ body {
   }
   .AboutUsTextx1{
     padding-top: 6.5rem;
+    padding-left: 4.5rem;
     display: block;
   }
   .AboutUsTextx2{
@@ -186,6 +207,33 @@ body {
   }
   .bodyme{
     width: 100%;
+    margin-top:1rem;
+  }
+  
+  .abouturbanImage{
+    width:420px !important;
+    height:420px !important;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .abouturbanImage:after{
+    transform:rotate(-57deg);
+  }
+  
+  .abouturbanImage:before{
+    transform:rotate(57deg);
+  }
+  @keyframes rotate{
+  
+    100%{
+      transform:rotate(360deg);
+    }
+  }
+  
+  .leftImage{
+    margin-top:-4rem;
   }
   
 
@@ -258,9 +306,7 @@ body {
     width:26rem;
     line-height: 24px;
   }
-  .leftImage{
-    margin-top:-11rem;
-  }
+ 
   .SeeMoreBtn{
     border-radius:100px !important;
     padding-left:0.15rem !important;
@@ -304,8 +350,11 @@ body {
   }
   .bodyme{
     width: 100%;
+    margin-top:-5rem;
   }
-  
+  .leftImage{
+    margin-top:-15rem;
+  }
  
 }
 
@@ -378,9 +427,7 @@ body {
     width:26rem;
     line-height: 24px;
   }
-  .leftImage{
-    margin-top:-11rem;
-  }
+ 
   .SeeMoreBtn{
     border-radius:100px !important;
     padding-left:0.15rem !important;
@@ -414,7 +461,9 @@ body {
   .bodyme{
     width: 100%;
   }
-  
+  .leftImage{
+    margin-top:-15rem;
+  }
   
 
 }
