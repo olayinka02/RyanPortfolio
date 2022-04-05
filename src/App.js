@@ -33,7 +33,7 @@ class App extends Component {
         <AboutUs /> 
 
         {/* our partner */}
-        <OurPartner />
+        <OurPartner /><br/><br/><br/>
       </div>
     );
   }

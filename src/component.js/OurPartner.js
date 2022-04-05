@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Container, Row, Col } from 'react-bootstrap';
+
+import urbanx from './images/urbanx.svg';
 
 
 
@@ -16,26 +18,126 @@ class OurPartner extends Component {
                 </center>
                 <Carousel controls={false} touch={true} pause="hover">
                     <Carousel.Item className="CarouselItemOne" interval={5000}>
-                        <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=First slide&bg=373940"
-                            alt="First slide"
-                        />
+                        <Container>
+                            <Row>
+                                <Col>
+                                <center>
+                                    <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                </center>
+                                </Col>
+            
+                                <Col>
+                                <center>
+                                <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                </center>
+                                </Col>
+                              
+                                <Col>
+                                <center>
+                                <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                    </center>
+                                </Col>
+                                <Col>
+                                <center>
+                                <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                    </center>
+                                </Col>
+                            </Row>
+                        </Container>
                     </Carousel.Item>
                     <Carousel.Item className="CarouselItemTwo" interval={5000}>
-                        <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
-                            alt="Second slide"
-                        />
+                    <Container>
+                            <Row>
+                                <Col>
+                                <center>
+                                    <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                </center>
+                                </Col>
+            
+                                <Col>
+                                <center>
+                                <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                </center>
+                                </Col>
+                              
+                                <Col>
+                                <center>
+                                <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                    </center>
+                                </Col>
+                                <Col>
+                                <center>
+                                <div className="circularPath">
+                                        <center>
+                                            <img
+                                                className="img-fluid PartnerImage"
+                                                src={urbanx}
+                                                alt="urbanxImage"
+                                            />
+                                        </center>
+                                    </div>
+                                    </center>
+                                </Col>
+                            </Row>
+                        </Container>
                     </Carousel.Item>
-                    <Carousel.Item className="CarouselItemThree">
-                        <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=Third slide&bg=20232a"
-                            alt="Third slide"
-                        />
-                    </Carousel.Item>
+                   
                 </Carousel>
             </div>
         )
