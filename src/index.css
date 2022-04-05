@@ -131,18 +131,10 @@ body {
   height:290px !important;
  
 
-  animation-name:rotate;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; 
+ 
 }
 
-@keyframes rotate{
 
-  100%{
-    transform:rotate(360deg);
-  }
-} 
 
 .leftImage{
   margin-top:2rem;
@@ -157,11 +149,11 @@ body {
  } */
 
  .circularPath{
-   width: 10rem;
-   height: 10rem;
+   width: 4rem;
+   height: 4rem;
    border-radius:100% !important;
    background-color: azure;
-   padding-top:2rem;
+   padding-top:1rem;
  }
 
 
@@ -363,6 +355,13 @@ body {
     margin-top:-15rem;
   }
  
+  .circularPath{
+    width: 8rem;
+    height: 8rem;
+    border-radius:100% !important;
+    background-color: azure;
+    padding-top:auto;
+  }
 }
 
 

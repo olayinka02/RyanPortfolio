@@ -20,7 +20,7 @@ class OurPartner extends Component {
                     <Carousel.Item className="CarouselItemOne" interval={5000}>
                         <Container>
                             <Row>
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                     <div className="circularPath">
                                         <center>
@@ -34,7 +34,7 @@ class OurPartner extends Component {
                                 </center>
                                 </Col>
             
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                 <div className="circularPath">
                                         <center>
@@ -48,7 +48,7 @@ class OurPartner extends Component {
                                 </center>
                                 </Col>
                               
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                 <div className="circularPath">
                                         <center>
@@ -61,7 +61,7 @@ class OurPartner extends Component {
                                     </div>
                                     </center>
                                 </Col>
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                 <div className="circularPath">
                                         <center>
@@ -80,7 +80,7 @@ class OurPartner extends Component {
                     <Carousel.Item className="CarouselItemTwo" interval={5000}>
                     <Container>
                             <Row>
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                     <div className="circularPath">
                                         <center>
@@ -92,9 +92,9 @@ class OurPartner extends Component {
                                         </center>
                                     </div>
                                 </center>
-                                </Col>
+                                </Col >
             
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                 <div className="circularPath">
                                         <center>
@@ -108,7 +108,7 @@ class OurPartner extends Component {
                                 </center>
                                 </Col>
                               
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                 <div className="circularPath">
                                         <center>
@@ -121,7 +121,7 @@ class OurPartner extends Component {
                                     </div>
                                     </center>
                                 </Col>
-                                <Col>
+                                <Col xs={3} md={3}>
                                 <center>
                                 <div className="circularPath">
                                         <center>
