@@ -8,7 +8,7 @@ import OurPartner from './component.js/OurPartner';
 
 import LineSection from './component.js/LineSection';
 import GamePage from './component.js/GamePage';
-import BlogPage from './component.js/BlogPage';
+// import BlogPage from './component.js/BlogPage';
 import Formpage from './component.js/Formpage';
 
 
@@ -54,7 +54,7 @@ class App extends Component {
         <LineSection /><br/>
         
         {/* our blog */}
-        <BlogPage />
+        {/* <BlogPage /> */}
 
         <LineSection /><br/>
 
