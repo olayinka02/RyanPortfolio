@@ -9,7 +9,7 @@ import OurPartner from './component.js/OurPartner';
 import LineSection from './component.js/LineSection';
 import GamePage from './component.js/GamePage';
 // import BlogPage from './component.js/BlogPage';
-import Formpage from './component.js/Formpage';
+// import Formpage from './component.js/Formpage';
 
 
 class App extends Component {
@@ -56,11 +56,11 @@ class App extends Component {
         {/* our blog */}
         {/* <BlogPage /> */}
 
-        <LineSection /><br/>
+        {/* <LineSection /><br/>
 
         <Formpage />
 
-        <LineSection /><br/>
+        <LineSection /><br/> */}
       </div>
     );
   }
