@@ -12,10 +12,10 @@ class OurPartner extends Component {
 
     render() {
         return (
-            <div>
+            <div className="ThirdContainer">
                 <center>
-                    <h3>Our Partner</h3>
-                </center>
+                    <h3 className="OurPartnerHeading">Our Partner</h3>
+                </center><br/><br/>
                 <Carousel controls={false} touch={true} pause="hover">
                     <Carousel.Item className="CarouselItemOne" interval={5000}>
                         <Container>

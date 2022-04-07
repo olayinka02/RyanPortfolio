@@ -10,7 +10,7 @@ class ImageLeft extends Component {
         return (
             <div>
                  
-                  <img
+                  <img 
                     className="img-fluid leftImage"
                     src={LeftImage}
                     alt="leftImage"

@@ -6,6 +6,11 @@ import ImageLeft from './component.js/ImageLeft';
 import AboutUs from './component.js/AboutUs';
 import OurPartner from './component.js/OurPartner';
 
+import LineSection from './component.js/LineSection';
+import GamePage from './component.js/GamePage';
+import BlogPage from './component.js/BlogPage';
+import Formpage from './component.js/Formpage';
+
 
 class App extends Component {
   render() {
@@ -29,11 +34,33 @@ class App extends Component {
           </Row>
         </Container>
 
+        <LineSection />
+
+
+
         {/* About Us Section */}
         <AboutUs /> 
 
+        <LineSection />
+
         {/* our partner */}
-        <OurPartner /><br/><br/><br/>
+        <OurPartner /><br/><br/>
+
+        <LineSection /><br/>
+         
+          {/* our projects */}
+        <GamePage /><br/><br/>
+
+        <LineSection /><br/>
+        
+        {/* our blog */}
+        <BlogPage />
+
+        <LineSection /><br/>
+
+        <Formpage />
+
+        <LineSection /><br/>
       </div>
     );
   }

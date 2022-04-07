@@ -18,9 +18,12 @@ body {
 }
 .BodySection{
   background-color: #000000 !important;
+ 
 }
 .NavBarBody{
-  background: url(./component.js/images/NavBackground.svg);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
   width: 100% !important;
   justify-content: space-between !important;
   
@@ -38,6 +41,10 @@ body {
 .FirstContainer{
   margin-top:6rem;
   width: 100% !important;
+  padding-left:1rem !important;
+  padding-right:1rem !important;
+
+ 
 }
 .FirstSectionLeftHeading{
   font-weight: 960;
@@ -98,9 +105,11 @@ body {
   display: none !important;
 }
 .SecondContainer{
-  margin-top:2rem;
+  margin-top:-1.5rem;
   margin-bottom:2rem;
   width: 100% !important;
+  padding-left:1rem !important;
+  padding-right:1rem !important;
 }
 .AboutUsTextx1{
   padding-top: 6.5rem;
@@ -138,15 +147,9 @@ body {
 
 .leftImage{
   margin-top:2rem;
+  
 }
 
-/* .skillimage{
-  float: right;
-  transition: transform 1.8s ease-in-out;
- }
- .skillimage:hover{
-   transform: rotate(360deg);
- } */
 
  .circularPath{
    width: 4rem;
@@ -155,6 +158,113 @@ body {
    background-color: azure;
    padding-top:1rem;
  }
+ .OurPartnerHeading{
+   font-size:2.75rem;
+   font-weight: 700;
+   line-height: 126%;
+   color: #FFFFFF;
+ }
+ .ThirdContainer{
+  margin-top:2rem;
+  margin-bottom:2rem;
+  width: 100% !important;
+  padding-left:1rem !important;
+  padding-right:1rem !important;
+ }
+ .sectionLine{
+   height:5rem !important;
+ }
+.vdIframe{
+  width:95%;
+  height:20rem !important;
+}
+.ProductHeading{
+  font-size: 2.75rem;
+  font-weight: 700;
+
+line-height: 126%;
+background: linear-gradient(90deg, #0057FF 0%, #FF0000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+  /* -webkit-animation: boxamine 4s infinite;
+  -moz-animation: boxamine 4s infinite;
+  animation: boxamine 4s  infinite; */
+}
+.SeeMoreBtnx{
+  border-radius:100px !important;
+  padding-left:0.15rem !important;
+  padding-right: 0.15rem !important;
+  padding-top:0.15rem !important;
+  padding-bottom:0.15rem !important;
+  width: 10rem !important;
+  height:2.6rem;
+}
+.SeeMoreBtnInnerx{
+  border-radius: 50px !important;
+  margin:0.001rem !important;
+  background-color:#85CCFF;;
+  color: #000000;
+  font-size: medium;
+  font-weight: 600;
+  height: 2.0rem;
+  padding-top: 0.2rem;
+  padding-bottom: "auto";
+
+}
+
+.BlogContainer{
+  margin-top:2rem;
+  margin-bottom:2rem;
+  width: 100% !important;
+  padding-left:1rem !important;
+  padding-right:1rem !important;
+}
+
+.card{
+  border: #000000 !important;
+  background-color: #000000;
+  border-radius:2rem
+  
+}
+.cardbody{
+  background-color: #000000;
+  border: #000000;
+  
+}
+.cardtitle{
+  color: white;
+  font-size:1.3rem;
+  padding-left:-3rem !important;
+}
+.cardtext{
+  color: white;
+  font-size:0.8rem;
+}
+.cardimage{
+  width:31rem ;
+  height:14.4rem ;
+  
+}
+.Formtopicname{
+  color: white;
+  font-size:2.9rem;
+  font-weight: 700;
+  line-height: 126%;
+}
+.Formbody{
+  background-image: url(./component.js/images/formbackground.svg);
+  height: 27.5rem;
+}
+.formtextleft{
+  padding-top:7rem !important;
+}
+.formbody{
+  width:18rem;
+}
 
 
 
@@ -234,7 +344,9 @@ body {
   .leftImage{
     margin-top:-4rem;
   }
-  
+  .sectionLine{
+    height:19rem !important;
+  }
 
 }
 
@@ -265,6 +377,8 @@ body {
   .FirstContainer{
     margin-top: 20rem;
     width: 100% !important;
+    padding-left:2rem !important;
+    padding-right:2rem !important;
   }
   .FirstSectionLeftHeading{
    
@@ -332,6 +446,8 @@ body {
     margin-top:2rem;
     margin-bottom:2rem;
     width: 100% !important;
+    padding-left:2rem;
+    padding-right:2rem;
   }
   .AboutUsTextx1{
     padding-top: 6.5rem;
@@ -361,6 +477,41 @@ body {
     border-radius:100% !important;
     background-color: azure;
     padding-top:auto;
+  }
+  .ThirdContainer{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width: 100% !important;
+    padding-left:2rem !important;
+    padding-right:2rem !important;
+   }
+   .ProductHeading{
+    font-size: 3.75rem;
+    font-weight: 700;
+  
+  line-height: 126%;
+  background: linear-gradient(90deg, #0057FF 0%, #FF0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+  
+  
+    /* -webkit-animation: boxamine 4s infinite;
+    -moz-animation: boxamine 4s infinite;
+    animation: boxamine 4s  infinite; */
+  }
+  .vdIframe{
+    width:95%;
+    height:30rem !important;
+  }
+
+  .BlogContainer{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width: 100% !important;
+    padding-left:2rem !important;
+    padding-right:2rem !important;
   }
 }
 
@@ -393,21 +544,21 @@ body {
   .FirstContainer{
     margin-top: 20rem;
     width: 100% !important;
+    padding-left:5rem !important;
+    padding-right:5rem !important;
   }
   .FirstSectionLeftHeading{
-   
-   
     font-weight: 860;
-    font-size: 3.5rem;
+    font-size: 4.3rem;
     line-height: 126%;
     width:100%;
   
     -webkit-animation: boxamine 4s infinite;
     -moz-animation: boxamine 4s infinite;
     animation: boxamine 4s  infinite;
-    
-    
+     
   }
+
   @keyframes boxamine {
     from{
       background: linear-gradient(270deg, #0057FF 0.04%, rgba(233, 0, 14, 0.66) 100.04%);
@@ -427,10 +578,8 @@ body {
   .FirstSectionLeftParagraph{
     font-size: 72px;
     color: aliceblue;
-  
-  
     font-size: smaller;
-    width:26rem;
+    width:32rem;
     line-height: 24px;
   }
  
@@ -460,6 +609,8 @@ body {
     margin-top:2rem;
     margin-bottom:2rem;
     width: 100% !important;
+    padding-left:5rem !important;
+    padding-right:5rem !important;
   }
   .AboutUsText{
     padding-top: 6.5rem;
@@ -469,6 +620,20 @@ body {
   }
   .leftImage{
     margin-top:-15rem;
+  }
+  .ThirdContainer{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width: 100% !important;
+    padding-left:2rem !important;
+    padding-right:2rem !important;
+   }
+   .BlogContainer{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width: 100% !important;
+    padding-left:5rem !important;
+    padding-right:5rem !important;
   }
   
 
