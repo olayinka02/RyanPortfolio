@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { Sling as Hamburger } from 'hamburger-react';
 
 import Urbandevlogo from './images/Urbandevlogo.svg';
@@ -18,6 +19,7 @@ class NavBodyx extends Component {
                 <Navbar fixed="top" expand="lg" className="NavBarBody">
                     <Container>
                         <Navbar.Brand href="#home">
+                            <Link to="/" >
                             <img
                                 src={Urbandevlogo}
                                 width="165"
@@ -25,6 +27,7 @@ class NavBodyx extends Component {
                                 className="d-inline-block align-top"
                                 alt="Urbandevlogo"
                             />
+                            </Link>
                         </Navbar.Brand>
 
                         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: "whitesmoke", }} >
@@ -33,23 +36,31 @@ class NavBodyx extends Component {
 
                         <Navbar.Collapse className="justify-content-end navChildrenWrap">
                             <Nav>
-                                <Nav.Link href="#home" className="navChildren">
-                                    <img src={HomeIcon} width="20" height="20" alt="iconimgone" /> Home
+                                <Nav.Link>
+                                    <Link className="navChildren active" to="/">
+                                        <img src={HomeIcon} width="20" height="20" alt="iconimgone" />  Home
+                                    </Link>
                                 </Nav.Link>
 
-                                <Nav.Link href="#link" className="navChildren">
-                                    <img src={projects} width="20" height="20" alt="iconimgtwo" /> Projects
+                                <Nav.Link >
+                                    <Link className="navChildren" to="/project">
+                                        <img src={projects} width="20" height="20" alt="iconimgtwo" />  Projects
+                                    </Link>
                                 </Nav.Link>
 
-                                <Nav.Link href="#link" className="navChildren">
-                                    <img src={AboutUsIcon} width="20" height="20" alt="iconimgthree" /> About Us
+                                <Nav.Link >
+                                    <Link className="navChildren" to="/about">
+                                        <img src={AboutUsIcon} width="20" height="20" alt="iconimgthree" />  About Us
+                                    </Link>
                                 </Nav.Link>
 
-                                <Nav.Link href="#link" className="navChildren">
-                                    <img src={MeettheTeamIcon} width="20" height="20" alt="iconimgfour" /> Meet the team
+                                <Nav.Link >
+                                    <Link className="navChildren" to="/meet">
+                                        <img src={MeettheTeamIcon} width="20" height="20" alt="iconimgfour" />  Meet the team
+                                    </Link>
                                 </Nav.Link>
                             </Nav>
-                           
+
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

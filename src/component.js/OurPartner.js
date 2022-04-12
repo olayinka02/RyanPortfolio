@@ -15,10 +15,11 @@ class OurPartner extends Component {
             <div className="ThirdContainer">
                 <center>
                     <h3 className="OurPartnerHeading">Our Partner</h3>
-                </center><br/><br/>
+                </center><br/>
+                <Container>
                 <Carousel controls={false} touch={true} pause="hover">
                     <Carousel.Item className="CarouselItemOne" interval={5000}>
-                        <Container>
+                        
                             <Row>
                                 <Col xs={3} md={3}>
                                 <center>
@@ -75,10 +76,10 @@ class OurPartner extends Component {
                                     </center>
                                 </Col>
                             </Row>
-                        </Container>
+                        
                     </Carousel.Item>
                     <Carousel.Item className="CarouselItemTwo" interval={5000}>
-                    <Container>
+                    
                             <Row>
                                 <Col xs={3} md={3}>
                                 <center>
@@ -135,10 +136,11 @@ class OurPartner extends Component {
                                     </center>
                                 </Col>
                             </Row>
-                        </Container>
+            
                     </Carousel.Item>
                    
                 </Carousel>
+                </Container>
             </div>
         )
     }

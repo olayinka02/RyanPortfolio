@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from 'react-bootstrap';
- import abouturban from './images/abouturban.svg';
+ import abouturban from './images/abouturban.gif';
 
 
 class AboutUs extends Component {
@@ -8,7 +8,7 @@ class AboutUs extends Component {
     render() {
         return (
             <div>
-                <Container className='SecondContainer'>
+                <Container className="SecondContainer">
                     <Row>
                         <Col xs={12} md={6}>
                             <div className="AboutUsImagex1" >

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, } from "react-bootstrap";
+
+import Appx from "./Modalbtn.js";
 
 
 
@@ -15,15 +17,8 @@ class GamePage extends Component {
                         <h1 className="ProductHeading">Products</h1><br />
                         <Row>
                             <Col xs={12} md={12}>
-                                {/* <iframe title="video" 
-                         src="https://www.youtube.com/embed/oQUc_cfdPeQ&t=74s" 
-                         className="vdIframe"  
-                         loading='eager'
-                         frameborder="0">
                              
-                         </iframe> */}
-
-                                <iframe className="vdIframe"
+                                 <iframe className="vdIframe"
                                     src="https://www.youtube.com/embed/oQUc_cfdPeQ?controls=0&amp;start=28"
                                     title="YouTube video player"
                                     frameborder="0"
@@ -34,12 +29,14 @@ class GamePage extends Component {
                         <Row>
                             <Col xs={12} md={12}><br/>
                                 <center>
-                                    <p style={{color:'white'}}>Sign up for our Beta testing program</p>
-                                    <Button className="SeeMoreBtnx" variant="outline-light">
+                                    <p style={{color:'white',fontSize:"0.8rem", fontFamily:"poppins",}}>Sign up for our Beta testing program</p>
+                                    {/* <Button className="SeeMoreBtnx" variant="outline-light">
                                         <div className="SeeMoreBtnInnerx">
                                             Beta Sign Up
                                         </div>
-                                    </Button>
+                                    </Button> */}
+
+                                    <Appx />
                                 </center>
                             </Col>
                         </Row>
