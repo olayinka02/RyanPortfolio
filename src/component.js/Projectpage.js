@@ -12,6 +12,8 @@ import Formpage from "./Formpage";
 
 
 
+
+
 class Projectpage extends Component {
 
     render() {
@@ -33,7 +35,10 @@ class Projectpage extends Component {
 
                 <Container className="productsectiontwo">
                     <Row>
+
+                       
                         <Col xs={12} md={7}>
+
                             <div>
                                 <img
                                     src={Projectlandingimage}
@@ -94,7 +99,7 @@ class Projectpage extends Component {
                             </div>
                         </Col>
                     </Row>
-                </Container><br/>
+                </Container><br/> 
 
                 <Container>
                     <img
