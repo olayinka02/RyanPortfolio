@@ -11,6 +11,7 @@ class ImageLeft extends Component {
             <div>
                  
                   <img 
+                  
                     className="img-fluid leftImage"
                     src={LeftImage}
                     alt="leftImage"
