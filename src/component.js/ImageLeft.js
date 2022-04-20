@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LeftImage from './images/LeftImage.svg';
+import LeftImage from './images/LeftImage.gif';
 
 
 

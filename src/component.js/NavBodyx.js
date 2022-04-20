@@ -30,8 +30,8 @@ class NavBodyx extends Component {
                             </Link>
                         </Navbar.Brand>
 
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: "whitesmoke", }} >
-                            <Hamburger duration={0.8} hideOutline={false} />
+                        { ' ' }<Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: "whitesmoke",padding:'0',}} >
+                            <Hamburger duration={0.4} hideOutline={false} />
                         </Navbar.Toggle>
 
                         <Navbar.Collapse className="justify-content-end navChildrenWrap">
